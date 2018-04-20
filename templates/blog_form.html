@@ -1,0 +1,11 @@
+
+
+<a href="/blog">Back</a>
+    <h1>Form</h1>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+<input type="submit" value="{{ button_name }}">
+
+</form>
+<div></div>
